@@ -2,9 +2,9 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
-PASSWORD = "ddqnsjthlahcbqpf"
-SENDER = "rohitshbx@gmail.com"
-RECEIVER = "rohitshbx@gmail.com"
+PASSWORD = "generate_password"
+SENDER = "your_emailid"
+RECEIVER = "reciever's_emailid"
 
 def send_email(image_path):
     print("send_email function started")
